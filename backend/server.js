@@ -15,12 +15,12 @@ const orderAdminRoutes = require("./routes/adminOrderRoute")
 
 const app = express();
 app.use(express.json());
-// app.use(cors());
-app.use(cors({
-  origin: 'http://localhost:5173', // Your frontend URL
-  credentials: true,
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: 'http://localhost:5173', // Your frontend URL
+//   credentials: true,
+//   allowedHeaders: ['Content-Type', 'Authorization']
+// }));
 dotenv.config();
 
 const PORT = process.env.PORT || 9000;
