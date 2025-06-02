@@ -30,3 +30,4 @@ Demo Link : https://rabbit-e-commerce-website-hqs8ci1a5.vercel.app/
 - Responsive UI design
 - RESTful API architecture
 
+![Homepage] ("C:\Users\hp\Downloads\Homepage.png")
